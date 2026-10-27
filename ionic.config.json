@@ -1,5 +1,5 @@
 {
-  "name": "06-ionic-nfc-room",
+  "name": "06-nfc-room-app",
   "integrations": {
     "capacitor": {}
   },

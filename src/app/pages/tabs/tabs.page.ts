@@ -1,11 +1,5 @@
 import { Component, EnvironmentInjector, inject } from '@angular/core';
-import {
-  IonTabs,
-  IonTabBar,
-  IonTabButton,
-  IonIcon,
-  IonLabel,
-} from '@ionic/angular';
+import { IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { bookOutline, cardOutline } from 'ionicons/icons';
 
