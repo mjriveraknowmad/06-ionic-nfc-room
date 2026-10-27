@@ -1,0 +1,7 @@
+{
+  "name": "06-ionic-nfc-room",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
