@@ -30,13 +30,15 @@ O para generar los iconos:
 
 
 ## Añadir plugins de cordova, pero los que tienen la adaptación para capacitor
+
 Por ejemplo, para añadir el plugin del fingerprint, para la huella dactilar:
 `npm install @awesome-cordova-plugins/fingerprint-aio`
 Luego hay que añadir el Provider correspondiente en metadata providers del componente.
 `import { FingerprintAIO } from '@awesome-cordova-plugins/fingerprint-aio/ngx';`
 `providers: [ FingerprintAIO ]`
 
-
+O para añadir el de nfc:
+`npm i community-cordova-plugin-nfc`
 
 
 ## Generar páginas
