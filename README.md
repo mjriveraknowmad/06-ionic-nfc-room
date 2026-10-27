@@ -3,9 +3,9 @@
 
 Es una aplicación de pruebas, siguiendo el curso de https://www.udemy.com/course/aprende-ionic-con-proyectos-practicos, como estaba teniendo problemas con la API de Pokemons, he creado un sistema para que me devuelva datos falsos en el catch error de la petición.
 
-Es una aplicación básica de Ionic 7 con Angular 19 y usando Karma/Jassmine, para aprender. Para ello lo que se ejecutó:
+Es una aplicación básica de Ionic 8 con Angular 19 y usando Karma/Jassmine, para aprender. Para ello lo que se ejecutó:
 
-`npm install -g @ionic/cli@v7`
+`npm install -g @ionic/cli@v8`
 
 `ionic start 06-ionic-nfc-room` y se fue respondiendo: Angular, tabs y standalone
 
