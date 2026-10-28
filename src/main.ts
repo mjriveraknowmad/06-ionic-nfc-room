@@ -8,7 +8,9 @@ import { AppComponent } from './app/app.component';
 bootstrapApplication(AppComponent, {
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    provideIonicAngular(),
+    provideIonicAngular({
+      innerHTMLTemplatesEnabled: true
+    }), // Para poder escribir html en los mensajes de alerta
     provideRouter(routes, withPreloading(PreloadAllModules)),
   ],
 });

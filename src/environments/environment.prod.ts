@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  passwordCode: '1234',
+  hotelName: 'MyHotel'
 };

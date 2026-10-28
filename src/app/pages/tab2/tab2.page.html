@@ -1,11 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Escribir
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  {{ready}}
+  
+  <ion-grid class="center-content ion-text-center">
+    <ion-row>
+      <ion-col>
+        <!-- Si esta listo, mostramos que debe hacer -->
+        @if(ready){
+          <ion-text>Pasa una tarjeta NFC para escribir datos</ion-text>
+          <ion-img src="./assets/img/nfc.gif"></ion-img>
+        }@else{
+          <!-- A la espera de autenticarse -->
+          <ion-text>Autentificate para escribir en una tarjeta NFC</ion-text>
+        }
+       
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
 </ion-content>
